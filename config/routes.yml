@@ -1,0 +1,13 @@
+routes:
+  route:
+    method: GET
+    uri: /examples/qwe/:new_id:/:page:/
+    action: examples->asd
+  opcache:
+    method: GET
+    uri: /settings/opcache
+    action: index->opcache
+  cache_type:
+    method: GET
+    uri: /settings/cachetype
+    action: index->cacheType
