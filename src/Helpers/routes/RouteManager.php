@@ -173,7 +173,6 @@ class RouteManager
     {
         $filteredRoutes = array();
         foreach ($this->routes as $route) {
-            var_dump($route);
             if ($route['method'] == $method) {
                 $filteredRoutes[] = $route;
             }
